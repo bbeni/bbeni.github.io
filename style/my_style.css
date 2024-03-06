@@ -1,0 +1,70 @@
+html, body{
+    height: 100%;
+    font-size: medium;
+}
+
+body {
+    font-family: "Anta", sans-serif;
+    color: #e8d7b5;
+    background-color: #181818;
+    text-align: center;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+div.beni-main {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 25rem;
+    outline: dashed 0.1rem #e8d7b5;
+}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+a:hover {
+    background-color: #e8d7b5;
+    color:#181818;
+}
+
+a.boxed img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    width: 3rem;
+    padding: 0.5rem;
+}
+
+a.boxed:hover {
+    background-color: #181818;
+}
+
+h1 {
+    font-size: 3.1rem;
+    padding: 0.2rem;
+    margin: 0.8rem;
+
+}
+
+h2 {
+    font-size: 1.9rem;
+    padding: 0.2rem;
+    margin-top: 1.5rem;
+    text-decoration: underline;
+}
+
+p {
+    padding: 0.5rem;
+}
+
+table {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+}
+td {
+    vertical-align: top;
+    text-align:center ;
+}
