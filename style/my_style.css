@@ -18,7 +18,8 @@ div.beni-main {
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 25rem;
-    outline: dashed 0.1rem #e8d7b5;
+    /* outline: dashed 0.03rem #e8d7b5;
+    */
 }
 
 a {
@@ -53,7 +54,6 @@ h2 {
     font-size: 1.9rem;
     padding: 0.2rem;
     margin-top: 1.5rem;
-    text-decoration: underline;
 }
 
 p {
