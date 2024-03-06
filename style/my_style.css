@@ -1,6 +1,13 @@
-html, body{
+html, body {
     height: 100%;
     font-size: medium;
+}
+
+@media (aspect-ratio < 0.667)
+{
+    html, body {
+        font-size: 3.1vw;
+    }
 }
 
 body {
@@ -21,6 +28,7 @@ div.beni-main {
     /* outline: dashed 0.03rem #e8d7b5;
     */
 }
+
 
 a {
     text-decoration: none;
@@ -47,6 +55,7 @@ h1 {
     font-size: 3.1rem;
     padding: 0.2rem;
     margin: 0.8rem;
+    margin-top: 0rem;
 
 }
 
@@ -57,14 +66,15 @@ h2 {
 }
 
 p {
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 
 table {
-    font-size: 0.9rem;
-    padding: 0.5rem;
+    font-size: 0.86rem;
+    padding: 0.3rem;
 }
+
 td {
     vertical-align: top;
-    text-align:center ;
+    text-align: center;
 }
